@@ -1,0 +1,17 @@
+{
+  "name": "ml-lateral-menu",
+  "version": "0.0.0",
+  "dependencies": {
+    "snapjs": "latest"
+  },
+  "gitHead": "c7970e4a33f3e0f759fc85546b25985369c76a58",
+  "readme": "ml-lateral-menu\n===============\n",
+  "readmeFilename": "README.md",
+  "_id": "ml-lateral-menu@1.0.0",
+  "description": "ml-lateral-menu ===============",
+  "commit": "c7970e4a33f3e0f759fc85546b25985369c76a58",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/albertoalcaraz/ml-lateral-menu.git"
+  }
+}

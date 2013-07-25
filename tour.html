@@ -1,0 +1,15 @@
+<div class="rn-carousel-container">
+    <ul rn-carousel rn-carousel-buffered rn-carousel-index="currentPage">
+        <li ng-repeat="page in tourPages">
+            <div ng-include="page.url"></div>
+        </li>
+    </ul>
+</div>
+
+<div>
+{{ currentPage+1 }} de {{ tourPages.length }}
+</div>
+
+<a class="btn" ng-click="previousPage()" ng-disabled="currentPage == 0">Anterior</a>
+<a class="btn" ng-click="">Saltar</a>
+<a class="btn" ng-click="nextPage()" ng-disabled="currentPage == tourPages.length-1">Siguiente</a>
